@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jlblAsiakasrekisteri" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlblEtunimi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlblSukunimi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlblYritys" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlblKatuosoite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlblPostinumero" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="19" pref="19" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlblPostitoimipaikka" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlblPuhelin" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlblEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jlblpaiva" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtxtKatuosoite" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jtxtPostitoimipaikka" min="-2" pref="94" max="-2" attributes="0"/>
+                                      <Component id="jtxtPuhelin" max="32767" attributes="0"/>
+                                      <Component id="jtxtEmail" alignment="0" pref="111" max="32767" attributes="0"/>
+                                      <Component id="jtxtEtunimi" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Component id="jtxtSukunimi" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Component id="jtxtYritys" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jtxtPostinumero" alignment="0" min="-2" pref="73" max="-2" attributes="0"/>
+                                  <Component id="jtxtpaiva" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jlblAsiakasnumero" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jtxtAsiakasnumero" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jbtnUusi" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="jbtnPaivita" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="jbtnPoista" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="jbtnTyhjenna" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jtxtSQL" min="-2" pref="337" max="-2" attributes="0"/>
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jlblAsiakasrekisteri" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlblAsiakasnumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtAsiakasnumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jlblpaiva" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtpaiva" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jtxtEtunimi" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlblEtunimi" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jtxtSukunimi" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlblSukunimi" min="-2" pref="8" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlblYritys" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtYritys" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlblKatuosoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtKatuosoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlblPostinumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtPostinumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlblPostitoimipaikka" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtPostitoimipaikka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlblPuhelin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtPuhelin" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jlblEmail" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtxtEmail" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="286" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="jbtnUusi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtnPaivita" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtnPoista" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtnTyhjenna" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jtxtSQL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlblAsiakasrekisteri">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Asiakasrekisteri"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblAsiakasnumero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Asiakasnumero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblEtunimi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Etunimi:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblSukunimi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sukunimi:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblYritys">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Yritys:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtAsiakasnumero">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtEtunimi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtSukunimi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtYritys">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jtblAsiakkaat">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jtblAsiakkaatMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jbtnUusi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Uusi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnUusiActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnPaivita">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P&#xe4;ivit&#xe4;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnPaivitaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnPoista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Poista"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnPoistaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblKatuosoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Katuosoite:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtKatuosoite">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblPostinumero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Postinumero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtPostinumero">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblPostitoimipaikka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Postitoimipaikka:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtPostitoimipaikka">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblPuhelin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Puhelin:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtPuhelin">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtEmail">
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnTyhjenna">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tyhjenn&#xe4;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnTyhjennaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtSQL">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlblpaiva">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Asiakkaaksitulopv&#xe4;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtpaiva">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
